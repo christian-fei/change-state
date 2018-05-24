@@ -10,7 +10,7 @@
 
 > state can be difficult to manage, sometimes.
 
-`change-state` should be used as an **abstraction for your state** that keeps track of the applied **changes** for you.
+`change-state` should be used as an **abstraction for your state** that keeps track of the applied **changes**.
 
 a state container can be created by passing in an `initialState`, like so:
 
