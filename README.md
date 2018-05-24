@@ -9,6 +9,8 @@
 ## usage in tests
 
 ```
+const changeState = require('change-state')
+
 test('mutates state by key', () => {
   const state = changeState({index: 0, time: 1527183130000})
   const inc1h = () => state.change('time', t => t + 1000 * 60 * 60)
