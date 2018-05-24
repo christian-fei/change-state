@@ -6,6 +6,27 @@
 
 > a stupid simple state container for your apps and tests
 
+## concept
+
+> state can be difficult to manage, sometimes.
+
+`change-state` should be used as an **abstraction for your state** that keeps track of the applied **changes** for you.
+
+a state container can be created by passing in an `initialState`, like so:
+
+```
+const state = changeState({index: 0, time: 1527183130000})
+```
+
+then it's up to you to mutate the state:
+
+```
+const incrementCountBy = amount => state.change('count', c => c + amount)
+# or
+const updateUser = user => state.change('user', _ => user)
+const setLoggedIn = () => state.change('user', u => Object.assign(u, isLoggedIn: true))
+```
+
 ## usage in tests
 
 see [`tests/index.test.js`](/test/index.test.js)
