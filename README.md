@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/christian-fei/statey.svg?branch=master)](https://travis-ci.org/christian-fei/statey)
+
 # statey
 
 > a stupid simple state container for your apps and tests
