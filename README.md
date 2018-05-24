@@ -8,6 +8,8 @@
 
 ## usage in tests
 
+see [`tests/index.test.js`](/test/index.test.js)
+
 ```
 const changeState = require('change-state')
 
