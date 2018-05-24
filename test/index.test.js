@@ -1,10 +1,10 @@
 const {test} = require('m.test')
 
 const {deepEqual} = require('assert')
-const statey = require('..')
+const changeState = require('..')
 
 test('mutates state by key', () => {
-  const state = statey({index: 0, time: 1527183130000})
+  const state = changeState({index: 0, time: 1527183130000})
   const inc1h = () => state.change('time', t => t + 1000 * 60 * 60)
   const incIndex = () => state.change('index', t => t + 1)
 

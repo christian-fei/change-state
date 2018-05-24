@@ -1,6 +1,6 @@
-module.exports = statey
+module.exports = changeState
 
-function statey (state) {
+function changeState (state) {
   const change = (prop, cb) => {
     Object.assign(state, {
       [prop]: cb(state[prop])

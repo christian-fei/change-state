@@ -1,5 +1,5 @@
 {
-  "name": "statey",
+  "name": "change-state",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christian-fei/statey.git"
+    "url": "git+https://github.com/christian-fei/change-state.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christian-fei/statey/issues"
+    "url": "https://github.com/christian-fei/change-state/issues"
   },
-  "homepage": "https://github.com/christian-fei/statey#readme",
+  "homepage": "https://github.com/christian-fei/change-state#readme",
   "devDependencies": {
     "m.test": "0.0.57"
   }
