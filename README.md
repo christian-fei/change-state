@@ -30,17 +30,17 @@ const incrementIndex = () => state.change('index', i => i + 1)
 
 requires an initialState passed in and returns an instance of `change-state`.
 
-##### example
+#### example
 
 ```
 const state = changeState({index: 0})
 ```
 
-### `state.change(key: String, mutation: Function)`
+### `state.change(key: String, mutation: Function)`
 
 changes the state by key and `mutation function` passed in. the mutation function is called with the current value of the property and should return the updated value.
 
-##### example
+#### example
 
 ```
 const incrementIndex = () => state.change('index', i => i + 1)
