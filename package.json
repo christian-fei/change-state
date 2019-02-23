@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/christian-fei/change-state#readme",
   "devDependencies": {
-    "m.test": "0.0.57"
+    "m.test": "0.0.58"
   }
 }
